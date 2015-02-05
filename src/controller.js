@@ -28,6 +28,8 @@ _.extend(Marionette.Controller.prototype, Backbone.Events, {
     return this;
   },
 
+  mergeOptions: Marionette.mergeOptions,
+
   // import the `triggerMethod` to trigger events with corresponding
   // methods if the method exists
   triggerMethod: Marionette.triggerMethod,

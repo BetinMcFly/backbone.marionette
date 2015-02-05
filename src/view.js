@@ -304,6 +304,8 @@ Marionette.View = Backbone.View.extend({
   // events=>function references/names to a hash of events=>function references
   normalizeMethods: Marionette.normalizeMethods,
 
+  mergeOptions: Marionette.mergeOptions,
+
   // Proxy `getOption` to enable getting options from this or this.options by name.
   getOption: Marionette.proxyGetOption,
 

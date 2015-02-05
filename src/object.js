@@ -26,6 +26,8 @@ _.extend(Marionette.Object.prototype, Backbone.Events, {
     this.stopListening();
   },
 
+  mergeOptions: Marionette.mergeOptions,
+
   // Import the `triggerMethod` to trigger events with corresponding
   // methods if the method exists
   triggerMethod: Marionette.triggerMethod,

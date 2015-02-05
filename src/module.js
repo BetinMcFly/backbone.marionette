@@ -130,6 +130,8 @@ _.extend(Marionette.Module.prototype, Backbone.Events, {
     this._finalizerCallbacks = new Marionette.Callbacks();
   },
 
+  mergeOptions: Marionette.mergeOptions,
+
   // import the `triggerMethod` to trigger events with corresponding
   // methods if the method exists
   triggerMethod: Marionette.triggerMethod
